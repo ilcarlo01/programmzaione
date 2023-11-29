@@ -1,0 +1,83 @@
+*{
+   margin: 0;
+   padding:0;
+    box-sizing: border-box;  
+   
+}
+
+img{
+    max-width:100%;
+    height: auto; /*così lorediamo già responsive*/
+
+}
+
+body{
+    background-color: #242424;
+    
+
+}
+
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.divider{
+    padding: 20px 0;
+    }
+
+.spacer{
+    padding:70px 0;
+}
+
+/*header*/
+
+header{
+    width: 100%;
+    padding: 20px 0;
+    background-color: cadetblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    transition: 1.3s;
+}
+
+.menu a:hover{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+}
